@@ -2,9 +2,14 @@
 
 > *Tomando decisões de compra mais inteligentes através de análise de IA multi-agente*
 
-## Visão Geral
+## Problema Alvo
 
-O Assistente de Decisão de Compras é um sistema avançado de IA que ajuda consumidores a tomarem decisões de compra informadas, analisando múltiplos aspectos de potenciais aquisições. Em vez de fornecer uma simples comparação de produtos, este assistente inteligente avalia sua situação pessoal, considerações financeiras, condições de mercado e experiências de usuários para entregar uma recomendação abrangente e personalizada.
+A compra compulsiva tem se intensificado no Brasil, impulsionada por diversos fatores interligados.  Estudos recentes indicam que 73% dos brasileiros já adquiriram produtos ou serviços influenciados pela mídia. Esse comportamento é amplificado pela Teoria da Comparação Social, onde indivíduos avaliam seu valor pessoal comparando-se aos outros, muitas vezes resultando em compras para manter um padrão percebido. Além disso, o uso excessivo do cartão de crédito é notável, com os brasileiros gastando em média R$ 1.400 por mês, sendo que 83% das dívidas estão relacionadas a esse meio de pagamento. Contribuindo para esse cenário, algoritmos de publicidade personalizada analisam o comportamento online dos usuários para exibir anúncios altamente direcionados, incentivando o consumo impulsivo e o ciclo de endividamento. Esse panorama evidencia a necessidade de soluções para mitigar o impacto do consumo impulsivo na saúde financeira dos indivíduos. 
+
+
+## Visão Geral da Solução 
+
+. O Assistente de Decisão de Compras ajuda com esses problemas, pois é um sistema de IA que auxilia consumidores a tomarem decisões de compra informadas, analisando múltiplos aspectos de potenciais aquisições. Em vez de fornecer uma simples comparação de produtos, este assistente inteligente avalia sua situação pessoal, considerações financeiras, condições de mercado e experiências de usuários para entregar uma recomendação abrangente e personalizada.
 
 ## Como Funciona
 
