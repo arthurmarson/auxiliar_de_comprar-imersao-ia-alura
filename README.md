@@ -1,35 +1,85 @@
-# 🤖 Assistente Inteligente de Decisão de Compras
+# 🛒 Assistente de Decisão de Compras
 
+> *Tomando decisões de compra mais inteligentes através de análise de IA multi-agente*
 
-Um sistema de agentes de IA especializados que auxilia usuários a tomar decisões de compra informadas, integrando análise de mercado, reviews, fatores financeiros e necessidades pessoais.
+## Visão Geral
 
-<img src="https://github.com/seu-usuario/assistente-compras-ia/blob/main/docs/flow-diagram.png?raw=true" width="800" alt="Fluxo dos Agentes">
+O Assistente de Decisão de Compras é um sistema avançado de IA que ajuda consumidores a tomarem decisões de compra informadas, analisando múltiplos aspectos de potenciais aquisições. Em vez de fornecer uma simples comparação de produtos, este assistente inteligente avalia sua situação pessoal, considerações financeiras, condições de mercado e experiências de usuários para entregar uma recomendação abrangente e personalizada.
 
----
+## Como Funciona
 
-## 🚀 Funcionalidades
+Este sistema utiliza uma arquitetura de IA multi-agente onde cinco agentes especializados trabalham juntos sequencialmente, cada um construindo sobre a análise dos agentes anteriores:
 
-### Agentes Especializados
+### 1. Agente Coletor de Informações 📋
 
-| Agente | Descrição | 
-|--------|------------|
-| **1. Coletor de Informações** | Coleta dados do usuário (produto, orçamento, prioridades) via diálogo interativo |
-| **2. Pesquisador de Mercado** | Analisa alternativas, preços e tendências usando dados em tempo real |
-| **3. Analista de Reviews** | Sintetiza avaliações de consumidores e reputação de marcas |
-| **4. Consultor Financeiro** | Calcula impacto orçamentário, custo total e opções de pagamento |
-| **5. Tomador de Decisão** | Fornece veredito final com recomendações personalizadas |
+Este agente inicia o processo coletando informações relevantes através de perguntas direcionadas:
 
----
+- Especificações do produto (marca, modelo, características)
+- Preço e orçamento disponível
+- Motivação da compra (necessidade vs. desejo)
+- Expectativas de frequência de uso
+- Alternativas existentes já possuídas
+- Prioridades de compra (qualidade, preço, durabilidade, funcionalidades)
+- Urgência da compra
 
-## ⚙️ Tecnologias
+### 2. Agente Pesquisador de Mercado 🔍
 
-- **Google Generative AI**: Modelos avançados para processamento de linguagem
-- **Pandas**: Manipulação de dados estruturados
-- **Python-dotenv**: Gerenciamento de variáveis de ambiente
-- **Google Search API**: Pesquisas contextualizadas em tempo real
-- **Jupyter Notebook**: Ambiente de desenvolvimento interativo
+Usando as informações coletadas, este agente conduz uma análise completa de mercado:
 
----
+- Identifica produtos similares em diferentes faixas de preço
+- Compara especificações técnicas entre o produto desejado e alternativas
+- Analisa a relação custo-benefício inicial das principais alternativas
+- Investiga tendências e histórico de preços
+- Avalia o ciclo de vida da tecnologia e potencial obsolescência
+
+### 3. Agente Analista de Reviews e Reputação ⭐
+
+Este agente sintetiza informações qualitativas sobre experiências de usuários:
+
+- Coleta e analisa avaliações de usuários de plataformas de e-commerce e fóruns
+- Avalia a reputação da marca e do vendedor
+- Identifica padrões recorrentes de feedback positivo e negativo
+- Compara níveis de satisfação de usuários entre alternativas
+- Gera um resumo conciso da "voz do consumidor" para cada produto
+
+### 4. Agente de Análise Financeira 💰
+
+Este agente avalia o impacto financeiro da compra:
+
+- Calcula o impacto proporcional no orçamento mensal do usuário
+- Determina o custo total de propriedade (manutenção, energia, acessórios)
+- Estima a depreciação do produto com base em dados de mercado e insights de durabilidade
+- Analisa opções de pagamento e impactos de parcelamento
+- Avalia se o momento financeiro atual é apropriado
+- Sugere métodos alternativos de aquisição (alugar, compartilhar, esperar)
+
+### 5. Agente de Decisão Final ✅
+
+Este agente integra todas as análises anteriores para fornecer uma recomendação clara:
+
+- Entrega um veredito definitivo: RECOMENDADO, NÃO RECOMENDADO ou RECOMENDADO COM RESSALVAS
+- Fornece uma justificativa concisa para a recomendação
+- Lista fatores decisivos de todas as dimensões analíticas
+- Destaca pontos importantes a considerar com base em avaliações e análises
+- Oferece recomendações adicionais sobre como, quando ou onde comprar
+- Sugere alternativas, se aplicável
+- Descreve precauções baseadas em problemas identificados
+
+## Principais Características
+
+- **Análise Multidimensional**: Avalia compras a partir de perspectivas de uso, mercado, reputação e financeira
+- **Abordagem Centrada no Usuário**: Recomendações são adaptadas às circunstâncias e prioridades individuais
+- **Decisões Baseadas em Dados**: Utiliza pesquisa de mercado e experiências de usuários para fornecer insights objetivos
+- **Sabedoria Financeira**: Vai além da comparação de produtos para avaliar o verdadeiro impacto financeiro
+- **Recomendações Claras**: Fornece orientação definitiva respeitando a autonomia do usuário
+
+## Casos de Uso
+
+- Avaliação de compras importantes (eletrônicos, eletrodomésticos, veículos)
+- Comparação de produtos similares em diferentes faixas de preço
+- Tomada de decisões de compra financeiramente responsáveis
+- Compreensão do verdadeiro valor de opções premium versus econômicas
+- Identificação de potenciais armadilhas ou custos ocultos antes da compra
 
 ## 📋 Exemplo de Uso
 
@@ -45,33 +95,13 @@ Um sistema de agentes de IA especializados que auxilia usuários a tomar decisõ
 - Sugestão: Aguardar Black Friday para economia média de 20%
 ```
 
----
 
-## 🤝 Contribuição
+## Contato
 
-Contribuições são bem-vindas! Siga estes passos:
-1. Faça um fork do projeto
-2. Crie uma branch (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
+- Email: arthurmarson2006@gmail.com
+- LinkedIn: https://www.linkedin.com/in/arthur-oliveira-marson/
+- GitHub: https://github.com/arthurmarson
 
 ---
 
-## 📄 Licença
-
-Distribuído sob licença MIT. Veja `LICENSE` para mais informações.
-
----
-
-**Transforme decisões de compra em escolhas estratégicas!**  
-[Reportar Bug](https://github.com/seu-usuario/assistente-compras-ia/issues) | [Solicitar Feature](https://github.com/seu-usuario/assistente-compras-ia/issues)
-```
-
-Este README inclui:
-- Badges para visualização rápida do status
-- Diagrama de fluxo dos agentes (adicione uma imagem)
-- Instruções claras de instalação e uso
-- Exemplo prático baseado no código
-- Seções padrão para contribuição e licença
-- Chamadas para ação relevantes
+*O Assistente de Decisão de Compras ajuda você a comprar de forma mais inteligente, não mais difícil.*
